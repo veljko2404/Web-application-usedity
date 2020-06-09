@@ -1,0 +1,26 @@
+* {
+  font-family:Sans-serif;
+  box-sizing: border-box;
+  letter-spacing:0.5px;
+}
+.footer-text a {
+  letter-spacing: 0px !important;
+}
+.header p {
+  letter-spacing: 0px !important;
+}
+body {
+  background-color: #f6f7f9 !important;
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+  -webkit-overflow-x:hidden;
+  min-height: 100vh;
+}
+a {
+  color:#365899 !important;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

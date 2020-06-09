@@ -1,0 +1,33 @@
+.inputfile {
+    display:none;
+}
+.inputfile + label {
+    max-width: 80%;
+    font-size: 20px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px 20px;
+    color: #f1e5e6;
+    background-color: #2d9940;
+    margin-left:50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.js .inputfile + label {
+    display: none;
+}
+label:hover {
+  opacity:0.85;
+}
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -4px;
+    margin-right: 4px;
+}
