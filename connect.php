@@ -1,7 +1,7 @@
 <?php
 
 $user = "usedityc_veljko";
-$pass = "Golf4TDIAUDI";
+$pass = "";
 $host = "208.82.114.173";
 $db = "usedityc_data";
 
